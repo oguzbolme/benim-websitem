@@ -10,6 +10,7 @@ function App() {
         <iframe style={{margin:"10px",borderRadius:"10px"}} src="https://open.spotify.com/embed/playlist/5Bxyjl5wGqqBKFCyats1Ss" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
         <iframe style={{margin:"10px",borderRadius:"10px"}} src="https://open.spotify.com/embed/playlist/7qPaEAghnlkuAktJhOs8wQ" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
       </h1>
+      <h2 style={{textAlign:"center"}}>Tüm hakları saklıdır falan filan</h2>
     </div>
   );
 }
