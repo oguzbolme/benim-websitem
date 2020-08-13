@@ -1,0 +1,96 @@
+  /*Fonts*/
+  @font-face {
+    font-family: "Coiny";
+    src: url("../fonts/Coiny-Regular.ttf") format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "Pacifico";
+    src: url("../fonts/Pacifico-Regular.ttf") format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+  /*Fonts*/
+
+
+  /*Sidebar*/
+  .sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #212F3D;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    font-family: Coiny;
+    font-size: 2.3vh;
+  }
+  
+  .sidebar a {
+    display: block;
+    color: whitesmoke;
+    padding: 16px;
+  }
+
+  .sidebar a:hover {
+      text-decoration: none;
+      color: white;
+  }
+
+  .sidebar a:active {
+      background-color: #566573;
+  }
+  /*Sidebar*/
+
+
+  /*Content*/
+  div.content {
+    margin-left: 200px;
+    background-color: #AAB7B8;
+  }
+  /*Content*/
+  
+
+  /*Responsive*/
+  @media screen and (max-width: 768px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {
+      text-align: center;
+      float: none;
+    }
+    div.content {
+        margin-left: 0;
+    }
+  }
+  /*Responsive*/
+
+
+  /*Intro Section*/
+  #introSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    font-family: Pacifico;
+    color: #212F3D;
+  }
+  /*Intro Section*/
+
+
+  /*About Section*/
+  #aboutSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Coiny;
+    color: #212F3D;
+    font-size: 2.5vh;
+  }
+  /*About Section*/

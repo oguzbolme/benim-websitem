@@ -1,16 +1,53 @@
 import React from 'react';
+import AOS from "aos"
+import "./css/style.css"
+import 'aos/dist/aos.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Navbar from "./components/header/navbar"
+import IntroSection from "./components/sections/introSection"
+import AboutSection from "./components/sections/aboutSection"
+import ExperienceSection from "./components/sections/experienceSection"
+import ProjectsSection from "./components/sections/projectsSection"
+import SkillsSection from "./components/sections/skillsSection"
+import EducationSection from "./components/sections/educationSection"
+import ContactSection from "./components/sections/contactSection"
+
+AOS.init()
 
 function App() {
   return (
     <div>
-      <h1 style={{textAlign:"center"}}>Spotifydan Seçmece Playlistler</h1>
-      <h1 style={{textAlign:"center"}}>
-        <iframe style={{margin:"10px",borderRadius:"10px"}} src="https://open.spotify.com/embed/playlist/7gIfmB7g2PrijKlgO08oZ4" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-        <iframe style={{margin:"10px",borderRadius:"10px"}} src="https://open.spotify.com/embed/playlist/73wmpmwoNg4iqN9LDdeU3t" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-        <iframe style={{margin:"10px",borderRadius:"10px"}} src="https://open.spotify.com/embed/playlist/5Bxyjl5wGqqBKFCyats1Ss" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-        <iframe style={{margin:"10px",borderRadius:"10px"}} src="https://open.spotify.com/embed/playlist/7qPaEAghnlkuAktJhOs8wQ" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-      </h1>
-      <h2 style={{textAlign:"center"}}>Tüm hakları saklıdır falan filan</h2>
+      
+      <header>
+        <Navbar/>
+      </header>
+
+      <body>
+        <div className="content">
+            <section id="introSection">
+              <IntroSection/>
+            </section>
+            <section id="aboutSection">
+              <AboutSection/>
+            </section>
+            <section id="experienceSection">
+              <ExperienceSection/>
+            </section>
+            <section id="projectsSection">
+              <ProjectsSection/>
+            </section>
+            <section id="skillsSection">
+              <SkillsSection/>
+            </section>
+            <section id="educationSection">
+              <EducationSection/>
+            </section>
+            <section id="contactSection">
+              <ContactSection/>
+            </section>
+        </div>
+      </body>
+
     </div>
   );
 }
