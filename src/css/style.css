@@ -24,7 +24,7 @@
     height: 100%;
     overflow: auto;
     font-family: Coiny;
-    font-size: 2.3vh;
+    font-size: 2.25vh;
   }
   
   .sidebar a {
@@ -85,12 +85,63 @@
 
   /*About Section*/
   #aboutSection {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
     font-family: Coiny;
     color: #212F3D;
-    font-size: 2.5vh;
+    font-size: 2vh;
   }
   /*About Section*/
+
+
+  /*Experience Section*/
+  #experienceSection {
+    font-family: Coiny;
+    color: #212F3D;
+    font-size: 2vh;
+  }
+  /*Experience Section*/
+
+
+  /*Projects Section*/
+  #projectsSection {
+    font-family: Coiny;
+    color: #212F3D;
+    font-size: 2vh;
+  }
+  /*Projects Section*/
+
+
+  /*Skills Section*/
+  #skillsSection {
+    font-family: Coiny;
+    color: #212F3D;
+    font-size: 2vh;
+  }
+  /*Skills Section*/
+
+
+  /*Education Section*/
+  #educationSection {
+    font-family: Coiny;
+    color: #212F3D;
+    font-size: 2vh;
+  }
+  /*Education Section*/
+
+
+  /*Contact Section*/
+  #contactSection {
+    height: 90vh;
+    font-family: Coiny;
+    color: #212F3D;
+    font-size: 2vh;
+  }
+  /*Contact Section*/
+
+  /*Footer*/
+  footer {
+    text-align: center;
+    font-family: Coiny;
+    color: #212F3D;
+    font-size: 2vh;
+  }
+  /*Footer*/

@@ -11,6 +11,7 @@ import ProjectsSection from "./components/sections/projectsSection"
 import SkillsSection from "./components/sections/skillsSection"
 import EducationSection from "./components/sections/educationSection"
 import ContactSection from "./components/sections/contactSection"
+import Footer from "./components/footer/footer"
 
 AOS.init()
 
@@ -45,6 +46,9 @@ function App() {
             <section id="contactSection">
               <ContactSection/>
             </section>
+            <footer>
+              <Footer/>
+            </footer>
         </div>
       </body>
 
