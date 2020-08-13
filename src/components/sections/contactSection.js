@@ -3,7 +3,7 @@ import React from 'react'
 export default function contactSection() {
     return (
         <div>
-            <form action="/action_page.php" style={{padding:"50px"}}>
+            <form action="/action_page.php" style={{margin:"10px",padding:"20px"}}>
             <h5 style={{fontSize:"2.5vh",textAlign:"center"}}>İLETİŞİM</h5>
                 <div class="form-group">
                     <input required type="text" class="form-control" placeholder="Ad"></input>

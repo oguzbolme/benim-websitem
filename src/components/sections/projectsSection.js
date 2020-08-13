@@ -3,7 +3,7 @@ import React from 'react'
 export default function projectsSection() {
     return (
         <div>
-            <div style={{padding:"25px"}}>
+            <div style={{padding:"30px 10px 10px 10px"}}>
                 <h5 style={{fontSize:"2.5vh",textAlign:"center"}}>PROJELER</h5>
                 <div class="row" style={{margin:"10px"}}>
                     <div class="col-sm-3">Dikilim</div>
