@@ -17,13 +17,13 @@ AOS.init()
 
 function App() {
   return (
-    <div>
+    <div style={{overflowX:"hidden"}}>
       
-      <header>
+      <header style={{overflowX:"hidden"}}>
         <Navbar/>
       </header>
 
-      <div className="content">
+      <div className="content" style={{overflowX:"hidden"}}>
         <section id="introSection">
           <IntroSection/>
         </section>
