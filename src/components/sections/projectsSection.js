@@ -10,7 +10,7 @@ export default function projectsSection() {
                         <div className="card mb-3" style={{maxWidth:"540px",backgroundColor:"#30323D"}}>
                             <div className="row no-gutters">
                                 <div className="col-md-4">
-                                    <img src={require('../../images/dikilim.png')} alt="Rakun" className="card-img" />
+                                    <img src={require('../../images/dikilim.png')} alt="dikilim" className="card-img" />
                                 </div>
                                 <div className="col-md-8">
                                     <div className="card-body">
@@ -25,7 +25,7 @@ export default function projectsSection() {
                         <div className="card mb-3" style={{maxWidth:"540px",backgroundColor:"#30323D"}}>
                             <div className="row no-gutters">
                                 <div className="col-md-4">
-                                    <img src={require('../../images/dikilim.png')} alt="Kimab" className="card-img" />
+                                    <img src={require('../../images/smart-library.png')} alt="smart-library" className="card-img" />
                                 </div>
                                 <div className="col-md-8">
                                     <div className="card-body">
@@ -42,7 +42,7 @@ export default function projectsSection() {
                         <div className="card mb-3" style={{maxWidth:"540px",backgroundColor:"#30323D"}}>
                             <div className="row no-gutters">
                                 <div className="col-md-4">
-                                    <img src={require('../../images/dikilim.png')} alt="kimma" className="card-img" />
+                                    <img src={require('../../images/directory.png')} alt="directory" className="card-img" />
                                 </div>
                                 <div className="col-md-8">
                                     <div className="card-body">
@@ -57,7 +57,7 @@ export default function projectsSection() {
                         <div className="card mb-3" style={{maxWidth:"540px",backgroundColor:"#30323D"}}>
                             <div className="row no-gutters">
                                 <div className="col-md-4">
-                                    <img src={require('../../images/dikilim.png')} alt="Tesda" className="card-img" />
+                                    <img src={require('../../images/machine-learning.png')} alt="ml" className="card-img" />
                                 </div>
                                 <div className="col-md-8">
                                     <div className="card-body">
