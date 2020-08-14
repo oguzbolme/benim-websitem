@@ -5,11 +5,69 @@ export default function projectsSection() {
         <div>
             <div style={{padding:"30px 10px 10px 10px"}}>
                 <h5 style={{fontSize:"2.5vh",textAlign:"center"}}>PROJELER</h5>
-                <div class="row" style={{margin:"10px"}}>
-                    <div class="col-sm-3">Dikilim</div>
-                    <div class="col-sm-3">Akıllı Kütüphane</div>
-                    <div class="col-sm-3">Telefon Rehberi</div>
-                    <div class="col-sm-3">ML Oyunu</div>
+                <div className="row" style={{margin:"10px"}}>
+                    <div className="col-sm-6">
+                        <div className="card mb-3" style={{maxWidth:"540px"}}>
+                            <div className="row no-gutters">
+                                <div className="col-md-4">
+                                    <img src={require('../../images/dikilim.png')} alt="Rakun" className="card-img" />
+                                </div>
+                                <div className="col-md-8">
+                                    <div className="card-body">
+                                        <h5 className="card-title">Dikilim</h5>
+                                        <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-sm-6">
+                        <div className="card mb-3" style={{maxWidth:"540px"}}>
+                            <div className="row no-gutters">
+                                <div className="col-md-4">
+                                    <img src={require('../../images/dikilim.png')} alt="Kimab" className="card-img" />
+                                </div>
+                                <div className="col-md-8">
+                                    <div className="card-body">
+                                        <h5 className="card-title">Akıllı Kütüphane</h5>
+                                        <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="row" style={{margin:"10px"}}>
+                    <div className="col-sm-6">
+                        <div className="card mb-3" style={{maxWidth:"540px"}}>
+                            <div className="row no-gutters">
+                                <div className="col-md-4">
+                                    <img src={require('../../images/dikilim.png')} alt="kimma" className="card-img" />
+                                </div>
+                                <div className="col-md-8">
+                                    <div className="card-body">
+                                        <h5 className="card-title">Telefon Rehberi</h5>
+                                        <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-sm-6">
+                        <div className="card mb-3" style={{maxWidth:"540px"}}>
+                            <div className="row no-gutters">
+                                <div className="col-md-4">
+                                    <img src={require('../../images/dikilim.png')} alt="Tesda" className="card-img" />
+                                </div>
+                                <div className="col-md-8">
+                                    <div className="card-body">
+                                        <h5 className="card-title">Çocuklar için ML</h5>
+                                        <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

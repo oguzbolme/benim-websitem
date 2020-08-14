@@ -23,35 +23,33 @@ function App() {
         <Navbar/>
       </header>
 
-      <body>
-        <div className="content">
-            <section id="introSection">
-              <IntroSection/>
-            </section>
-            <section id="aboutSection">
-              <AboutSection/>
-            </section>
-            <section id="experienceSection">
-              <ExperienceSection/>
-            </section>
-            <section id="projectsSection">
-              <ProjectsSection/>
-            </section>
-            <section id="skillsSection">
-              <SkillsSection/>
-            </section>
-            <section id="educationSection">
-              <EducationSection/>
-            </section>
-            <section id="contactSection">
-              <ContactSection/>
-            </section>
-            <footer>
-              <Footer/>
-            </footer>
-        </div>
-      </body>
-
+      <div className="content">
+        <section id="introSection">
+          <IntroSection/>
+        </section>
+        <section id="aboutSection">
+          <AboutSection/>
+        </section>
+        <section id="experienceSection">
+          <ExperienceSection/>
+        </section>
+        <section id="projectsSection">
+          <ProjectsSection/>
+        </section>
+        <section id="skillsSection">
+          <SkillsSection/>
+        </section>
+        <section id="educationSection">
+          <EducationSection/>
+        </section>
+        <section id="contactSection">
+          <ContactSection/>
+        </section>
+        <footer>
+          <Footer/>
+        </footer>
+      </div>
+      
     </div>
   );
 }
