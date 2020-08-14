@@ -5,7 +5,7 @@ export default function contactSection() {
         <div>
             <form action="/action_page.php" style={{margin:"10px",padding:"20px"}}>
             <h5 style={{fontSize:"3vh",textAlign:"center"}}>İLETİŞİM</h5>
-                <div className="form-group" style={{fontSize:"2vh"}}>
+                <div className="form-group">
                     <input required type="text" className="form-control" placeholder="Ad"></input>
                     <br/>
                     <input required type="text" className="form-control" placeholder="Soyad"></input>
