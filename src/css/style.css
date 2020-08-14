@@ -19,7 +19,7 @@
     margin: 0;
     padding: 0;
     width: 200px;
-    background-color: #212F3D;
+    background-color: #30323D;
     position: fixed;
     height: 100%;
     overflow: auto;
@@ -29,17 +29,13 @@
   
   .sidebar a {
     display: block;
-    color: whitesmoke;
+    color: #CDD1C4;
     padding: 16px;
   }
 
   .sidebar a:hover {
       text-decoration: none;
-      color: white;
-  }
-
-  .sidebar a:active {
-      background-color: #566573;
+      color: #E8C547;
   }
   /*Sidebar*/
 
@@ -47,7 +43,7 @@
   /*Content*/
   div.content {
     margin-left: 200px;
-    background-color: #AAB7B8;
+    background-color: #5C80BC;
   }
   /*Content*/
   
