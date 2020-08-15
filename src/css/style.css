@@ -41,9 +41,6 @@
     color: #E8C547;
     cursor: pointer;
   }
-  #sidebar-content {
-    display: block;
-  }
   .sidebar a {
     display: block;
     color: #CDD1C4;

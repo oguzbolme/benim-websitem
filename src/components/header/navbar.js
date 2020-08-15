@@ -10,11 +10,11 @@ export default function Navbar() {
     function setToggleState(){
         if(toggle===false){
             setToggle(true)
-            document.getElementById("sidebar-content").style.display="block"
+            document.getElementById("sidebar-content").style.display="none"
         }
         else{
             setToggle(false)
-            document.getElementById("sidebar-content").style.display="none"
+            document.getElementById("sidebar-content").style.display="block"
         }
     }
 
