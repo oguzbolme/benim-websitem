@@ -10,11 +10,11 @@ export default function Navbar() {
     function setToggleState(){
         if(toggle===false){
             setToggle(true)
-            document.getElementById("sidebar-content").style.display="none"
+            document.getElementById("sidebar-content").style.display="block"
         }
         else{
             setToggle(false)
-            document.getElementById("sidebar-content").style.display="block"
+            document.getElementById("sidebar-content").style.display="none"
         }
     }
 
@@ -22,7 +22,7 @@ export default function Navbar() {
         <div>
             <div className="sidebar">
                 <AnchorLink href='#introSection'><FontAwesomeIcon icon={faDove} /> Oğuzhan Bölme</AnchorLink>
-                <FontAwesomeIcon id="sidebar-toggle" onClick={setToggleState} style={{color:"#CDD1C4",textAlign:"center"}} icon={faHamburger} />
+                <button id="sidebar-toggle" onClick={setToggleState}><FontAwesomeIcon icon={faHamburger} /></button>
                 <div id="sidebar-content">
                     <AnchorLink href='#aboutSection'><FontAwesomeIcon icon={faUser} /> Hakkımda</AnchorLink>
                     <AnchorLink href='#experienceSection'><FontAwesomeIcon icon={faBriefcase} /> Deneyim</AnchorLink>
