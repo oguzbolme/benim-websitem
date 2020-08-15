@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function projectsSection() {
+export default function ProjectsSection() {
     return (
         <div>
             <div style={{padding:"30px 10px 10px 10px"}}>

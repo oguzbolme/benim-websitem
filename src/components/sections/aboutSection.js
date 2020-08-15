@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function aboutSection() {
+export default function AboutSection() {
     return (
         <div>
             <div style={{padding:"30px 10px 10px 10px"}}>

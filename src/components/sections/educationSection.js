@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function educationSection() {
+export default function EducationSection() {
     return (
         <div>
             <div style={{padding:"30px 10px 10px 10px"}}>

@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function introSection() {
+export default function IntroSection() {
     return (
         <div>
             <div data-aos="fade-right" data-aos-delay="250" data-aos-duration="1000" data-aos-once="true"><h6 style={{fontSize:"5vh"}}>Fikrinizi Gerçeğe Dönüştüren</h6></div>

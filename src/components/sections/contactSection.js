@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function contactSection() {
+export default function ContactSection() {
     return (
         <div>
             <form action="/action_page.php" style={{margin:"10px",padding:"20px"}}>

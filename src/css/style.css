@@ -26,13 +26,17 @@
     font-family: Coiny;
     font-size: 2.25vh;
   }
-  
+  #sidebar-toggle {
+    display: none;
+  }
+  #sidebar-content {
+    display: block;
+  }
   .sidebar a {
     display: block;
     color: #CDD1C4;
     padding: 16px;
   }
-
   .sidebar a:hover {
       text-decoration: none;
       color: #E8C547;
@@ -54,6 +58,15 @@
       width: 100%;
       height: auto;
       position: relative;
+    }
+    #sidebar-toggle {
+      display: block;
+      width: 100%;
+      font-size: 5vh;
+      padding-bottom: 4px;
+    }
+    #sidebar-content {
+      display: none;
     }
     .sidebar a {
       text-align: center;
