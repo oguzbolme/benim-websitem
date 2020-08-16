@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faDove, faUser, faBriefcase, faDraftingCompass, faCode, faGraduationCap, faComments, faHamburger } from '@fortawesome/free-solid-svg-icons'
+import Social from '../Social';
 
 export default function Navbar() {
 
@@ -30,6 +31,7 @@ export default function Navbar() {
                     <AnchorLink href='#skillsSection'><FontAwesomeIcon icon={faCode} /> Yetenekler</AnchorLink>
                     <AnchorLink href='#educationSection'><FontAwesomeIcon icon={faGraduationCap} /> Eğitim</AnchorLink>
                     <AnchorLink href='#contactSection'><FontAwesomeIcon icon={faComments} /> İletişim</AnchorLink>
+                    <Social/>
                 </div>
             </div>
         </div>

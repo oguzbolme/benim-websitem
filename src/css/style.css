@@ -33,6 +33,7 @@
     width: 100%;
     font-size: 5vh;
     padding-bottom: 4px;
+    display: none;
   }
   #sidebar-toggle:focus{
     outline: none;
@@ -43,6 +44,7 @@
   }
   .sidebar a {
     display: block;
+    text-align: center;
     color: #CDD1C4;
     padding: 16px;
   }
@@ -67,6 +69,9 @@
       width: 100%;
       height: auto;
       position: relative;
+    }
+    #sidebar-toggle {
+      display: block;
     }
     #sidebar-content {
       display: none;
