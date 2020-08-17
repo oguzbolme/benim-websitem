@@ -29,9 +29,10 @@ export default function SkillsSection() {
                     <div className="col-sm-3">
                         <h6 style={{color:"#E8C547",fontSize:"2vh"}}>Veritabanı</h6>
                         <h6 style={{color:"#CDD1C4",fontSize:"2vh"}}>SQL Server</h6>
+                        <h6 style={{color:"#CDD1C4",fontSize:"2vh"}}>PostgreSQL</h6>
                         <h6 style={{color:"#CDD1C4",fontSize:"2vh"}}>SQLite</h6>
-                        <h6 style={{color:"#CDD1C4",fontSize:"2vh"}}>Firebase</h6>
                         <h6 style={{color:"#CDD1C4",fontSize:"2vh"}}>MongoDB</h6>
+                        <h6 style={{color:"#CDD1C4",fontSize:"2vh"}}>Firebase</h6>
                     </div>
                 </div>
                 <div className="row" style={{backgroundColor:"#30323D",borderRadius:"10px",padding:"10px",margin:"10px"}}>

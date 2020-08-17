@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faDove, faUser, faBriefcase, faDraftingCompass, faCode, faGraduationCap, faComments, faHamburger } from '@fortawesome/free-solid-svg-icons'
+import { faDove, faUser, faBriefcase, faDraftingCompass, faCode, faGraduationCap, faComments, faBars } from '@fortawesome/free-solid-svg-icons'
 import Social from '../Social';
 
 export default function Navbar() {
@@ -23,7 +23,7 @@ export default function Navbar() {
         <div>
             <div className="sidebar">
                 <AnchorLink href='#introSection'><FontAwesomeIcon icon={faDove} /> Oğuzhan Bölme</AnchorLink>
-                <button id="sidebar-toggle" onClick={setToggleState}><FontAwesomeIcon icon={faHamburger} /></button>
+                <button id="sidebar-toggle" onClick={setToggleState}><FontAwesomeIcon icon={faBars} /></button>
                 <div id="sidebar-content">
                     <AnchorLink href='#aboutSection'><FontAwesomeIcon icon={faUser} /> Hakkımda</AnchorLink>
                     <AnchorLink href='#experienceSection'><FontAwesomeIcon icon={faBriefcase} /> Deneyim</AnchorLink>
